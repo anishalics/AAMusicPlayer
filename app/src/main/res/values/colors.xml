@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="DarkOrange">#FFA500</color>
+    <color name="MediumOrange">#FFB366</color>
+    <color name="LightOrange">#FFCC99</color>
+    <color name="VeryLightOrange">#FFE6CC</color>
+    <color name="LighestOrange">#EBD7C2</color>
+
+    <color name="DarkBlue">#00008B</color>
+    <color name="DarkYellow">#B8860B</color>
+
+    <color name="colorPrimary">#1B1A1C</color>
+    <color name="colorPrimaryDark">#151515</color>
+    <color name="colorAccent">#FFFFFF</color>
+</resources>

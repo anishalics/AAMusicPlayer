@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">AA Music Player</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="play_pause_button_description">Play/Pause Button</string>
+    <string name="back_button">Back Button</string>
+    <string name="now_playing_text">Now Playing Text</string>
+    <string name="menu_button">Menu Button With No Use</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="cover_art">Cover Art</string>
+    <string name="image_view_gradient">Image View Gradient</string>
+    <string name="this_is_song_name">This is song name</string>
+    <string name="song_name">Song Name</string>
+    <string name="this_is_song_artist">This is song artist</string>
+    <string name="song_artist">Song Artist</string>
+    <string name="seek_bar">Seek Bar</string>
+    <string name="_4_28">4:28</string>
+    <string name="_0_00">0:00</string>
+    <string name="repeat_on_off">Repeat on/off</string>
+    <string name="skip_to_next_song">Skip to next song</string>
+    <string name="skip_to_previous_song">Skip to previous song</string>
+    <string name="shuffle_on_off">Shuffle on/off</string>
+    <string name="tab_layout_for_navigating_through_different_sections">Tab Layout for navigating through different sections</string>
+    <string name="view_pager_for_displaying_content_pages">View Pager for displaying content pages</string>
+    <string name="album_image">Album image</string>
+    <string name="album">Album</string>
+    <string name="music_image">Music image</string>
+    <string name="nevers_road">Nevers Road</string>
+    <string name="witt_lowry">Witt Lowry</string>
+</resources>

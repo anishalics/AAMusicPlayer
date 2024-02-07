@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The layout for the main activity of the music player application -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/VeryLightOrange"
+    tools:context=".MainActivity">
+
+    <!-- TabLayout for displaying tabs -->
+    <com.google.android.material.tabs.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/LightOrange"
+        android:id="@+id/tab_layout"
+        app:tabIndicatorFullWidth="true"
+        app:tabIndicatorGravity="center"
+        app:tabTextColor="@color/colorAccent"
+        app:tabIndicatorHeight="40dp"
+        app:tabIndicatorColor="@color/MediumOrange"
+        app:tabIndicator="@drawable/tab_indicator"
+        android:contentDescription="@string/tab_layout_for_navigating_through_different_sections"/>
+
+    <!-- ViewPager for displaying content pages -->
+    <androidx.viewpager.widget.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewpager"
+        android:layout_below="@+id/tab_layout"
+        android:contentDescription="@string/view_pager_for_displaying_content_pages"/>
+
+</RelativeLayout>
