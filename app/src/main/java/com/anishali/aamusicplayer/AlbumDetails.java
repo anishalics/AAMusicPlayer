@@ -27,9 +27,7 @@ public class AlbumDetails extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_album_details);
 
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            getWindow().setStatusBarColor(getResources().getColor(R.color.DarkOrange));
-        }
+        getWindow().setStatusBarColor(getResources().getColor(R.color.DarkOrange));
 
         recyclerView = findViewById(R.id.recyclerView);
         albumPhoto = findViewById(R.id.albumPhoto);

@@ -26,6 +26,9 @@ import java.util.ArrayList;
 import android.Manifest;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements SearchView.OnQueryTextListener{
     private static final int REQUEST_CODE = 1;
@@ -48,9 +51,7 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
         permission();
 
         //Changing Status Bar color is possible in LOLLIPOP and it's above versions
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            getWindow().setStatusBarColor(getResources().getColor(R.color.DarkOrange));
-        }
+        getWindow().setStatusBarColor(getResources().getColor(R.color.DarkOrange));
     }
 
     // Method to request file access permission
@@ -88,6 +89,7 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
             if (grantResults[0] == PackageManager.PERMISSION_GRANTED)
             {
                 musicFiles = getAllAudio(this);
+
                 initViewPager();
             }
             else {

@@ -22,7 +22,7 @@
         app:tabIndicatorHeight="40dp"
         app:tabIndicatorColor="@color/MediumOrange"
         app:tabIndicator="@drawable/tab_indicator"
-        android:contentDescription="@string/tab_layout_for_navigating_through_different_sections"/>
+        android:contentDescription="@string/tab_layout"/>
 
     <!-- ViewPager for displaying content pages -->
     <androidx.viewpager.widget.ViewPager
@@ -30,6 +30,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/viewpager"
         android:layout_below="@+id/tab_layout"
-        android:contentDescription="@string/view_pager_for_displaying_content_pages"/>
+        android:contentDescription="@string/view_pager">
+    </androidx.viewpager.widget.ViewPager>
 
 </RelativeLayout>
